@@ -172,8 +172,8 @@
 	insteadOf = "gist:"
 
 [user]
-name = Adrian Moreno
-email = adrian@morenomartinez.com
+	name = Adrian Moreno
+	email = adrian@morenomartinez.com
 
 [gitreview]
-username = adrianmo
+	username = adrianmo
