@@ -88,3 +88,5 @@ source $ZSH/oh-my-zsh.sh
 [[ -s ~/.bashrc ]] && source ~/.bashrc
 
 export GOPATH=$HOME/Projects/go
+
+export DEFAULT_USER=adrianmo
