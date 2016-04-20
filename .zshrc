@@ -84,3 +84,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+[[ -s ~/.bashrc ]] && source ~/.bashrc
+
+export GOPATH=$HOME/Projects/go
