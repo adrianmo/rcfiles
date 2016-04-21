@@ -85,6 +85,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+export POWERLINE_COMMAND=powerline
+export POWERLINE_CONFIG_COMMAND=powerline-config
+# Powerline disabled
+# . /Users/adrianmo/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
+
 [[ -s ~/.bashrc ]] && source ~/.bashrc
 
 export GOPATH=$HOME/Projects/go
