@@ -5,9 +5,7 @@ export ZSH=/Users/adrianmo/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-# ZSH_THEME="robbyrussell"
-# ZSH_THEME="avit"
-ZSH_THEME="agnoster"
+# ZSH_THEME="agnoster"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -88,7 +86,7 @@ source $ZSH/oh-my-zsh.sh
 export POWERLINE_COMMAND=powerline
 export POWERLINE_CONFIG_COMMAND=powerline-config
 # Powerline disabled
-# . /Users/adrianmo/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
+source /Users/adrianmo/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
 
 [[ -s ~/.bashrc ]] && source ~/.bashrc
 

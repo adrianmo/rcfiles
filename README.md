@@ -7,4 +7,5 @@
 
 ### Dependencies
 
-- Powerline: https://github.com/powerline/powerline
+- powerline: https://github.com/powerline/powerline
+- powerline-gitstatus: https://github.com/jaspernbrouwer/powerline-gitstatus
