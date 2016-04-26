@@ -1,0 +1,11 @@
+{
+  "common": {
+    "log_file": "~/.powerlinelog",
+    "log_level": "WARNING"
+  },
+  "ext": {
+        "shell": {
+                "colorscheme": "default"
+        }
+  }
+}
