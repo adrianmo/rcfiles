@@ -1,3 +1,7 @@
+# Fix locale and lang
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/adrianmo/.oh-my-zsh
 
@@ -49,11 +53,11 @@ export ZSH=/Users/adrianmo/.oh-my-zsh
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git docker)
 
 # User configuration
 
-export PATH="/Users/adrianmo/.gvm/pkgsets/go1.6/global/bin:/Users/adrianmo/.gvm/gos/go1.6/bin:/Users/adrianmo/.gvm/pkgsets/go1.6/global/overlay/bin:/Users/adrianmo/.gvm/bin:/Users/adrianmo/.gvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/opt/vmware/appcatalyst/bin"
+export PATH="/Users/adrianmo/.gvm/pkgsets/go1.6/global/bin:/Users/adrianmo/.gvm/gos/go1.6/bin:/Users/adrianmo/.gvm/pkgsets/go1.6/global/overlay/bin:/Users/adrianmo/.gvm/bin:/Users/adrianmo/.gvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/opt/vmware/appcatalyst/bin:/Users/adrianmo/Library/Python/2.7/bin:/usr/local/terraform/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -85,11 +89,16 @@ source $ZSH/oh-my-zsh.sh
 
 export POWERLINE_COMMAND=powerline
 export POWERLINE_CONFIG_COMMAND=powerline-config
-# Powerline disabled
+
 source /Users/adrianmo/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
 
 [[ -s ~/.bashrc ]] && source ~/.bashrc
 
 export GOPATH=$HOME/Projects/go
 
+export VPNSERVER=vpn-ie.emc.com
+
 export DEFAULT_USER=adrianmo
+
+# added by travis gem
+[ -f /Users/adrianmo/.travis/travis.sh ] && source /Users/adrianmo/.travis/travis.sh
