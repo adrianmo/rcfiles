@@ -3,7 +3,7 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/adrianmo/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -100,5 +100,7 @@ export VPNSERVER=vpn-ie.emc.com
 
 export DEFAULT_USER=adrianmo
 
-# added by travis gem
-[ -f /Users/adrianmo/.travis/travis.sh ] && source /Users/adrianmo/.travis/travis.sh
+[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
+
+# direnv hook
+eval "$(direnv hook zsh)"
